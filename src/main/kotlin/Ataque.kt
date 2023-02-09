@@ -14,7 +14,6 @@ class Ataque(nombre:String,tipo:String,fuerza:Int) {
         this.fuerza = fuerza
     }
 
-
     override fun toString(): String {
         return "Ataque $nombre de tipo $tipo con fuerza $fuerza"
     }

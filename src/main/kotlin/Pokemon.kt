@@ -1,14 +1,13 @@
 class Pokemon (id:Int,nombre:String,vida:Int,tipo:String){
 
     var id:Int = 0
-        set(value) {
-            if(value<0) {
-                throw Exception("El ID no debe ser 0")
-            }
-        }
-
     var nombre:String = " "
     var vida:Int = 0
+        set(value) {
+            if(value <= 0) {
+                throw Exception("La vida no puede ser 0")
+            }
+        }
     var tipo:String  = " "
 
     init {
