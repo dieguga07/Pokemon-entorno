@@ -1,5 +1,6 @@
 class Pokemon (id:Int,nombre:String,vida:Int,tipo:Tipo){
 
+    var lista_ataq=Array<String>(4,{" "})
     var id:Int = 0
     var nombre:String = " "
     var vida:Int = 0
