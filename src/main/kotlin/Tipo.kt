@@ -172,7 +172,7 @@ class Tipo(tipos:String,tipo_2:String) {
     }
 
     override fun toString(): String {
-        return "Tipo(tipo='$tipo')"
+        return "tipo = $tipo"
     }
 
 
